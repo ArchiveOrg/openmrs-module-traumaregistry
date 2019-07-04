@@ -18,9 +18,9 @@
 	<url>https://wiki.openmrs.org/x/FQ4z</url>
 
 	<scm>
-		<connection>scm:git:git@github.com:openmrs/openmrs-module-traumaregistry.git</connection>
-		<developerConnection>scm:git:git@github.com:openmrs/openmrs-module-traumaregistry.git</developerConnection>
-		<url>https://github.com/openmrs/openmrs-module-traumaregistry/</url>
+		<connection>scm:git:git@github.com:ArchiveOrg/openmrs-module-traumaregistry.git</connection>
+		<developerConnection>scm:git:git@github.com:ArchiveOrg/openmrs-module-traumaregistry.git</developerConnection>
+		<url>https://github.com/ArchiveOrg/openmrs-module-traumaregistry/</url>
 	</scm>
 
 	<modules>
