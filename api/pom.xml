@@ -10,5 +10,5 @@
 	<artifactId>traumaregistry-api</artifactId>
 	<packaging>jar</packaging>
 	<name>Trauma Registry API</name>
-	<description>API project for Truama Registry</description>
+	<description>API project for Trauma Registry</description>
 </project>

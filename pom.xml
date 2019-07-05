@@ -12,7 +12,7 @@
 	<artifactId>traumaregistry</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Truama Registry</name>
+	<name>Trauma Registry</name>
 	<description>ICChange Trauma Registry for MEPA</description>
 
 	<url>https://wiki.openmrs.org/x/FQ4z</url>

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "traumaregistry.regApp",        // unique id for this app, unique across all apps, typically starts with your module id
+    "description": "Trauma Registry App",        // plain text or a message code (not displayed to end-users),
+    "extensions": [
+      {
+        "id": "traumaregistry.AppHomepageLink",
+        "extensionPointId": "org.openmrs.referenceapplication.homepageLink",
+        "type": "link",
+        "label": "Trauma Registry",        // text or message code (this is shown to the user)
+        "url": "module/traumaregistry/traumaregistryLink.form",        // clicking on the app icon goes to this link
+        "order": 11,
+        "icon": "icon-medkit",        // see the uicommons style guide icons
+        "requiredPrivilege": "Access Registration"        // require this privilege to show the link
+      }
+    ]
+  }
+]
