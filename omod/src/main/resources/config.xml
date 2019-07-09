@@ -25,6 +25,21 @@
 		<class>${MODULE_PACKAGE}.extension.html.AdminList</class>
 	</extension>
 	
+	<require_modules>																											
+		<require_module version="3.3.1">
+			org.openmrs.module.uiframework
+		</require_module>		
+		
+		<require_module version="1.4">
+            org.openmrs.module.appui
+        </require_module>
+					
+		<require_module version="1.0.1">
+            org.openmrs.module.referenceapplication
+        </require_module>
+																											
+	</require_modules>
+	
 	
 	<!-- AOP
 	<advice>

@@ -31,4 +31,24 @@
     <properties>
         <openmrs.platform.version>1.9.8</openmrs.platform.version>
     </properties>
+    
+    <dependencyManagement>
+    	<dependencies>
+    		<dependency>
+    			<groupId>org.openmrs.module</groupId>
+    			<artifactId>uiframework-api</artifactId>
+    			<version>3.3.1</version>
+    			<scope>provided</scope>
+    		</dependency>
+    		
+    		<dependency>
+				<groupId>org.openmrs.module</groupId>
+				<artifactId>appui-omod</artifactId>
+				<version>1.4</version>
+				<scope>provided</scope>
+			</dependency>
+    		
+    	</dependencies>
+    </dependencyManagement>
+    
 </project>
