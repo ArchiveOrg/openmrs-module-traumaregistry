@@ -1,4 +1,5 @@
 <% ui.decorateWith("appui", "standardEmrPage", [title: "Trauma Registry"]) %>
+
 <style>
 	.name {
 		color: #f26522;
@@ -7,35 +8,17 @@
 
 <div class="clear"></div>
 <div class="container">
-	<div class="example">
-		<ul id="breadcrumbs">
-			<li>
-				<a href="${ui.pageLink('referenceapplication','home')}">
-					<i class="icon-home small"></i></a>
-			</li>
-			<li>
-				<i class="icon-chevron-right link"></i>
-				<a href="#">Trauma Registry</a>
-			</li>
-			<li>
-			</li>
-		</ul>
+
+	<div>
+		${ ui.includeFragment("traumaregistry", "breadcrumbs", 
+			[
+				title: "Trauma Registry",
+			]) }
 	</div>
+	
 	<div class="patient-header new-patient-header">
-		<div class="demographics">
-			<h1 class="name" style="border-bottom: 1px solid #ddd;">
-				<span>TRAUMA REGISTRY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-			</h1>
-
-			<br>
-
-
-		</div>
-
-		<div class="identifiers">
-			<em>Current Time:</em>
-			<span>${date}</span>
-		</div>
+	
+		${ ui.includeFragment("traumaregistry", "header", [title: "Trauma Registry"]) }
 
 
 		<div class="onerow">
@@ -43,7 +26,7 @@
 				<centre>
 					<a class="button confirm fixedwidth big" onclick="javascript:window.location.href='newPatientRegistration.page'">
 						<i class=" icon-plus"></i>
-						Create New Patient
+						Create New Patient Yay!
 					</a>
 
 					<a class="button task fixedwidth big" onclick="javascript:window.location.href='revisitPatientRegistration.page'">

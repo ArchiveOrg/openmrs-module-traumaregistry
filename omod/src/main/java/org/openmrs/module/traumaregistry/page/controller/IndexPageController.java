@@ -22,6 +22,7 @@ public class IndexPageController {
 	
 	public void get(HttpServletRequest request, PageModel model, UiUtils uiUtils) throws
 	//JaxenException, 
+	        
 	        DocumentException, IOException {
 		//model.addAttribute("patientIdentifier", RegistrationUtils.getNewIdentifier());
 		model.addAttribute("date", new Date());
