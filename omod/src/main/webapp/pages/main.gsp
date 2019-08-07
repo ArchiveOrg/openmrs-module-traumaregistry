@@ -1,13 +1,8 @@
 <% ui.decorateWith("appui", "standardEmrPage", [title: "Trauma Registry"]) %>
 
-<style>
-	.name {
-		color: #f26522;
-	}
-</style>
 
 <div class="clear"></div>
-<div class="container">
+<div class="content">
 
 	<div>
 		${ ui.includeFragment("traumaregistry", "breadcrumbs", 
@@ -21,14 +16,19 @@
 		${ ui.includeFragment("traumaregistry", "header", [title: "Trauma Registry"]) }
 
 
-		<div class="onerow">
-			<div style="text-align: center; margin:60px 0 60px 0;">
-			
-			TODO
-
-
-			</div>
+		<div style="text-align: left; margin:60px 0 60px 0;">
+		<div>Patient Search:</div>
+				${ ui.includeFragment("traumaregistry", "quickSearch") }
 		</div>
 	</div>
 </div>
+
+
+
+
+
+	
+
+	
+
 

@@ -1,18 +1,12 @@
 <% ui.decorateWith("appui", "standardEmrPage", [title: "Trauma Registry"]) %>
 
 
+
+
 <head>
-	<script>
-
-		
-	</script>
 
 
-	<style>
-	
 
-	
-	</style>
 </head>
 
 
@@ -38,10 +32,12 @@
 		
 			${ ui.includeFragment("traumaregistry", "header", [title: "Patient Search"]) }
 			
-			
-				
 
-			</div>
+
+
+
+
+
 		</div>
 	</div>
 </body>
