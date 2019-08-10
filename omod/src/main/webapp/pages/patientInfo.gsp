@@ -23,12 +23,12 @@
        });
 
 
-   	function showHideOnSelect(target, selectDiv, value)
+   	function showOnSelect(target, selector, value)
 	{
 		jq(target).hide();
 		
-		jq(selectDiv).change(function() {
-	        if(jq(selectDiv).val() == value) {
+		jq(selector).change(function() {
+	        if(jq(selector).val() == value) {
 	            jq(target).show(); 
 	        } else {
 	            jq(target).hide(); 
@@ -43,11 +43,16 @@
 <style>
 
 h2{
+	margin-top: 50px;
+}
+
+h2.top
+{
 	margin-top: 20px;
 }
 
 .onerow {
-	padding: 5px 10px;
+	padding: 10px 10px;
 }
 
 .tab {
@@ -127,7 +132,7 @@ span.select-arrow {
 			<ul id="inline-tabs">
 				<li><a href="#overview">Overview</a></li>
 				<li><a href="#timeSequence">Time Sequence</a></li>
-				<li><a href="#causeOfInjury">Cause of Injury</a></li>
+				<li><a href="#causeOfInjuryTab">Cause of Injury</a></li>
 				<li><a href="#kts">KTS</a></li>
 				<li><a href="#twoWeek">Two-Week Follow-Up Period</a></li>
 			</ul>
@@ -140,7 +145,7 @@ span.select-arrow {
 				${ ui.includeFragment("traumaregistry", "tabTimeSequence") }
 			</div>
 			
-			<div id="causeOfInjury" class="tab">
+			<div id="causeOfInjuryTab" class="tab">
 				${ ui.includeFragment("traumaregistry", "tabCauseOfInjury") }
 			</div>
 			
