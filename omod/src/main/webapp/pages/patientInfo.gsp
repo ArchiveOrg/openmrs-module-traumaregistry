@@ -28,9 +28,12 @@
 		jq(target).hide();
 		
 		jq(selector).change(function() {
-	        if(jq(selector).val() == value) {
+	        if(jq(selector).val() == value) 
+		    {
 	            jq(target).show(); 
-	        } else {
+	        } 
+	        else 
+		    {
 	            jq(target).hide(); 
 	        } 
 		});		
@@ -42,12 +45,11 @@
 <!-- These styles are shared across all the tabs -->
 <style>
 
-h2{
+h2 {
 	margin-top: 50px;
 }
 
-h2.top
-{
+h2.top {
 	margin-top: 20px;
 }
 
