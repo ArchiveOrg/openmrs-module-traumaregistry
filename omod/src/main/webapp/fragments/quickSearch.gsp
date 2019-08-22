@@ -8,7 +8,7 @@
 
 <%
     def minSearchCharacters = 3
-	def afterSelectedUrl = "/traumaregistry/patientInfo.page?patientId={{ patientId }}"
+	def afterSelectedUrl = "/traumaregistry/inputForm.page?patientId={{ patientId }}"
 %>
 
 <script type="text/javascript">

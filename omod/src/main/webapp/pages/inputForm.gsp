@@ -116,7 +116,7 @@ span.select-arrow {
 	<div class="breadcrumbs">
 		${ ui.includeFragment("traumaregistry", "breadcrumbs", 
 			[
-				title: "Patient Info",
+				title: "Input Form",
 				links: 
 				[
 					[name: "Trauma Registry", href: ui.pageLink('traumaregistry','main')],
@@ -136,6 +136,7 @@ span.select-arrow {
 				<li><a href="#timeSequence">Time Sequence</a></li>
 				<li><a href="#causeOfInjuryTab">Cause of Injury</a></li>
 				<li><a href="#kts">KTS</a></li>
+				<li><a href="#otherTab">Other</a></li>
 				<li><a href="#twoWeek">Two-Week Follow-Up Period</a></li>
 			</ul>
 			
@@ -151,11 +152,15 @@ span.select-arrow {
 				${ ui.includeFragment("traumaregistry", "tabCauseOfInjury") }
 			</div>
 			
-			<div id="kts">
+			<div id="kts" class="tab">
 				${ ui.includeFragment("traumaregistry", "tabKts") }			
 			</div>
 			
-			<div id="twoWeek">
+			<div id="otherTab" class="tab">
+				${ ui.includeFragment("traumaregistry", "tabOther") }				
+			</div>
+			
+			<div id="twoWeek" class="tab">
 				${ ui.includeFragment("traumaregistry", "tabTwoWeekFollowUp") }			
 			</div>
 		</div>
