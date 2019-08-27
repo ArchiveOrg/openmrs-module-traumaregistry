@@ -2,6 +2,9 @@
 
 <%
 	ui.includeCss("traumaregistry", "onepcssgrid.css")
+	
+	ui.includeJavascript("traumaregistry", "jquery.timepicker.min.js")
+	ui.includeCss("traumaregistry", "jquery.timepicker.min.css")
 %>
 
 <!-- These scripts are shared across all the tabs -->

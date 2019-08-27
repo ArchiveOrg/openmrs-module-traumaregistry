@@ -9,7 +9,7 @@
 		showOnSelect("#otherInjuryPlaceDiv", "#injuryPlace", "Other");
 		
     });    
-        
+
 </script>
     
 
@@ -54,7 +54,7 @@
 </div>
 
 <div class="clear"></div>
-<h2>Where Did The Injury Occur?</h2>
+<h2>Where Did the Injury Occur?</h2>
 
 <div class="onerow">
 	<div class="col4">
